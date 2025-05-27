@@ -37,6 +37,7 @@ h2 , h3 {
 }
 .btn{
     align-items: center;
+
     display: flex;
     max-width: 248.74px;
     height: 44px;
@@ -73,6 +74,22 @@ h2 , h3 {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.hero .btn{
+    max-width: 248.74px;
+    height: 44px;
+    max-height: 44px;
+    padding: 24px 17px;
+    background:linear-gradient(90deg, #FFA500 20%, #FFD447 80%);
+    color: black;
+    border-radius: 15px; 
+    font-size: 12px;
+    margin-top: 32px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .text .tex{
   max-width: 1140px;
